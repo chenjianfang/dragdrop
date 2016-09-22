@@ -10,6 +10,6 @@ input text 解决输入电话号码、姓名、密码等等；（比如 <input t
 
 文本label 解决input标签前面的提示信息; (比如 密码：<input type="password">
 
-其实有上面两个就能解决大部分form表单的问题，但是对上面两个有要求，input标签必须可以有这些属性：required有/无、width、height、padding、border、font;  
+其实有上面两个就能解决大部分form表单的问题，但是对上面两个有要求，input标签必须可以有这些属性：required有/无、width、height、padding、border、placeholder、font;  
 文本label要求这些属性：font、for-id
 
