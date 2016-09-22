@@ -1,0 +1,29 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  height: 100%; }
+
+ul {
+  list-style: none; }
+
+.creatInput {
+  position: absolute !important;
+  display: block;
+  z-index: 10;
+  background: rgba(254, 157, 96, 0.4); }
